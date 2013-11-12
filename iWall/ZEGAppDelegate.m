@@ -12,8 +12,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Register our Parse Application.
+    [Parse setApplicationId:@"Kr8szseXH4cmacpCcQJSq5QgRjw3yZpXobNJYtet" clientKey:@"4s5SyRUKiec0EuPWbA1FuDHOeDmq61Tm6UCyzYHy"];
+    
+    // Initialize Parse's Facebook Utilities singleton. This uses the FacebookAppID we specified in our App bundle's plist.
+    [PFFacebookUtils initializeFacebook];
+    
     return YES;
+}
+
+// These methods are required for your app to handle the URL callbacks that are part of OAuth authentication. You simply call a helper method in PDFFacebookUtils and it takes care of the rest.
+
+- (BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    return [PFFacebookUtils handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [PFFacebookUtils handleOpenURL:url];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -36,11 +51,13 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    [FBSession.activeSession handleDidBecomeActive];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [FBSession.activeSession close];
 }
 
 @end

@@ -21,6 +21,24 @@
 		007BE1D61832BD5700FF5666 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE1B81832BD5700FF5666 /* UIKit.framework */; };
 		007BE1DE1832BD5700FF5666 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 007BE1DC1832BD5700FF5666 /* InfoPlist.strings */; };
 		007BE1E01832BD5700FF5666 /* iWallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 007BE1DF1832BD5700FF5666 /* iWallTests.m */; };
+		007BE1EA1832C14600FF5666 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE1E91832C14600FF5666 /* FacebookSDK.framework */; };
+		007BE1EC1832C1A300FF5666 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE1EB1832C1A300FF5666 /* AdSupport.framework */; };
+		007BE1EE1832C1AC00FF5666 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE1ED1832C1AC00FF5666 /* Accounts.framework */; };
+		007BE1F01832C1B400FF5666 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE1EF1832C1B400FF5666 /* libsqlite3.0.dylib */; };
+		007BE1F21832C1BC00FF5666 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE1F11832C1BC00FF5666 /* Security.framework */; };
+		007BE1F41832C1C500FF5666 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE1F31832C1C500FF5666 /* Social.framework */; };
+		007BE1F61832C29300FF5666 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE1F51832C29300FF5666 /* Parse.framework */; };
+		007BE1F81832C2A100FF5666 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE1F71832C2A100FF5666 /* AudioToolbox.framework */; };
+		007BE1FA1832C2AA00FF5666 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE1F91832C2AA00FF5666 /* CFNetwork.framework */; };
+		007BE1FC1832C2C500FF5666 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE1FB1832C2C500FF5666 /* CoreLocation.framework */; };
+		007BE1FE1832C2D300FF5666 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE1FD1832C2D300FF5666 /* libz.1.1.3.dylib */; };
+		007BE2001832C2DC00FF5666 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE1FF1832C2DC00FF5666 /* MobileCoreServices.framework */; };
+		007BE2021832C2E500FF5666 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE2011832C2E500FF5666 /* QuartzCore.framework */; };
+		007BE2041832C2ED00FF5666 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE2031832C2ED00FF5666 /* StoreKit.framework */; };
+		007BE2061832C2F400FF5666 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BE2051832C2F400FF5666 /* SystemConfiguration.framework */; };
+		007BE2081832C48900FF5666 /* loginButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 007BE2071832C48900FF5666 /* loginButton.png */; };
+		007BE20B1832C6A700FF5666 /* ZEGCommons.m in Sources */ = {isa = PBXBuildFile; fileRef = 007BE20A1832C6A700FF5666 /* ZEGCommons.m */; };
+		007BE20E1832CDB000FF5666 /* ZEGWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007BE20D1832CDB000FF5666 /* ZEGWallViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +71,26 @@
 		007BE1DB1832BD5700FF5666 /* iWallTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iWallTests-Info.plist"; sourceTree = "<group>"; };
 		007BE1DD1832BD5700FF5666 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		007BE1DF1832BD5700FF5666 /* iWallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWallTests.m; sourceTree = "<group>"; };
+		007BE1E91832C14600FF5666 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/SDKs/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		007BE1EB1832C1A300FF5666 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		007BE1ED1832C1AC00FF5666 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		007BE1EF1832C1B400FF5666 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		007BE1F11832C1BC00FF5666 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		007BE1F31832C1C500FF5666 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		007BE1F51832C29300FF5666 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		007BE1F71832C2A100FF5666 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		007BE1F91832C2AA00FF5666 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		007BE1FB1832C2C500FF5666 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		007BE1FD1832C2D300FF5666 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		007BE1FF1832C2DC00FF5666 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		007BE2011832C2E500FF5666 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		007BE2031832C2ED00FF5666 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		007BE2051832C2F400FF5666 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		007BE2071832C48900FF5666 /* loginButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginButton.png; sourceTree = "<group>"; };
+		007BE2091832C6A700FF5666 /* ZEGCommons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEGCommons.h; sourceTree = "<group>"; };
+		007BE20A1832C6A700FF5666 /* ZEGCommons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEGCommons.m; sourceTree = "<group>"; };
+		007BE20C1832CDAF00FF5666 /* ZEGWallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEGWallViewController.h; sourceTree = "<group>"; };
+		007BE20D1832CDB000FF5666 /* ZEGWallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEGWallViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +98,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007BE2061832C2F400FF5666 /* SystemConfiguration.framework in Frameworks */,
+				007BE2041832C2ED00FF5666 /* StoreKit.framework in Frameworks */,
+				007BE2021832C2E500FF5666 /* QuartzCore.framework in Frameworks */,
+				007BE2001832C2DC00FF5666 /* MobileCoreServices.framework in Frameworks */,
+				007BE1FE1832C2D300FF5666 /* libz.1.1.3.dylib in Frameworks */,
+				007BE1FC1832C2C500FF5666 /* CoreLocation.framework in Frameworks */,
 				007BE1B71832BD5700FF5666 /* CoreGraphics.framework in Frameworks */,
+				007BE1FA1832C2AA00FF5666 /* CFNetwork.framework in Frameworks */,
+				007BE1F81832C2A100FF5666 /* AudioToolbox.framework in Frameworks */,
+				007BE1F41832C1C500FF5666 /* Social.framework in Frameworks */,
+				007BE1F21832C1BC00FF5666 /* Security.framework in Frameworks */,
+				007BE1F01832C1B400FF5666 /* libsqlite3.0.dylib in Frameworks */,
+				007BE1EE1832C1AC00FF5666 /* Accounts.framework in Frameworks */,
+				007BE1F61832C29300FF5666 /* Parse.framework in Frameworks */,
+				007BE1EC1832C1A300FF5666 /* AdSupport.framework in Frameworks */,
+				007BE1EA1832C14600FF5666 /* FacebookSDK.framework in Frameworks */,
 				007BE1B91832BD5700FF5666 /* UIKit.framework in Frameworks */,
 				007BE1B51832BD5700FF5666 /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +154,21 @@
 		007BE1B31832BD5700FF5666 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				007BE2051832C2F400FF5666 /* SystemConfiguration.framework */,
+				007BE2031832C2ED00FF5666 /* StoreKit.framework */,
+				007BE2011832C2E500FF5666 /* QuartzCore.framework */,
+				007BE1FF1832C2DC00FF5666 /* MobileCoreServices.framework */,
+				007BE1FD1832C2D300FF5666 /* libz.1.1.3.dylib */,
+				007BE1FB1832C2C500FF5666 /* CoreLocation.framework */,
+				007BE1F91832C2AA00FF5666 /* CFNetwork.framework */,
+				007BE1F71832C2A100FF5666 /* AudioToolbox.framework */,
+				007BE1F51832C29300FF5666 /* Parse.framework */,
+				007BE1F31832C1C500FF5666 /* Social.framework */,
+				007BE1F11832C1BC00FF5666 /* Security.framework */,
+				007BE1EF1832C1B400FF5666 /* libsqlite3.0.dylib */,
+				007BE1ED1832C1AC00FF5666 /* Accounts.framework */,
+				007BE1EB1832C1A300FF5666 /* AdSupport.framework */,
+				007BE1E91832C14600FF5666 /* FacebookSDK.framework */,
 				007BE1B41832BD5700FF5666 /* Foundation.framework */,
 				007BE1B61832BD5700FF5666 /* CoreGraphics.framework */,
 				007BE1B81832BD5700FF5666 /* UIKit.framework */,
@@ -112,11 +180,15 @@
 		007BE1BA1832BD5700FF5666 /* iWall */ = {
 			isa = PBXGroup;
 			children = (
+				007BE1C61832BD5700FF5666 /* Main.storyboard */,
 				007BE1C31832BD5700FF5666 /* ZEGAppDelegate.h */,
 				007BE1C41832BD5700FF5666 /* ZEGAppDelegate.m */,
-				007BE1C61832BD5700FF5666 /* Main.storyboard */,
 				007BE1C91832BD5700FF5666 /* ZEGViewController.h */,
 				007BE1CA1832BD5700FF5666 /* ZEGViewController.m */,
+				007BE20C1832CDAF00FF5666 /* ZEGWallViewController.h */,
+				007BE20D1832CDB000FF5666 /* ZEGWallViewController.m */,
+				007BE2091832C6A700FF5666 /* ZEGCommons.h */,
+				007BE20A1832C6A700FF5666 /* ZEGCommons.m */,
 				007BE1CC1832BD5700FF5666 /* Images.xcassets */,
 				007BE1BB1832BD5700FF5666 /* Supporting Files */,
 			);
@@ -126,6 +198,7 @@
 		007BE1BB1832BD5700FF5666 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				007BE2071832C48900FF5666 /* loginButton.png */,
 				007BE1BC1832BD5700FF5666 /* iWall-Info.plist */,
 				007BE1BD1832BD5700FF5666 /* InfoPlist.strings */,
 				007BE1C01832BD5700FF5666 /* main.m */,
@@ -232,6 +305,7 @@
 				007BE1CD1832BD5700FF5666 /* Images.xcassets in Resources */,
 				007BE1BF1832BD5700FF5666 /* InfoPlist.strings in Resources */,
 				007BE1C81832BD5700FF5666 /* Main.storyboard in Resources */,
+				007BE2081832C48900FF5666 /* loginButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +325,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				007BE1CB1832BD5700FF5666 /* ZEGViewController.m in Sources */,
+				007BE20E1832CDB000FF5666 /* ZEGWallViewController.m in Sources */,
+				007BE20B1832C6A700FF5666 /* ZEGCommons.m in Sources */,
 				007BE1C11832BD5700FF5666 /* main.m in Sources */,
 				007BE1C51832BD5700FF5666 /* ZEGAppDelegate.m in Sources */,
 			);
@@ -379,6 +455,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/eugenezabolotniy/Documents/SDKs/FacebookSDK,
+					/Users/eugenezabolotniy/iphoneApplications/Parse/iWall,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iWall/iWall-Prefix.pch";
 				INFOPLIST_FILE = "iWall/iWall-Info.plist";
@@ -392,6 +473,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/eugenezabolotniy/Documents/SDKs/FacebookSDK,
+					/Users/eugenezabolotniy/iphoneApplications/Parse/iWall,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iWall/iWall-Prefix.pch";
 				INFOPLIST_FILE = "iWall/iWall-Info.plist";
